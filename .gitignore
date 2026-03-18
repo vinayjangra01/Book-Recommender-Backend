@@ -1,0 +1,7 @@
+/scraper/books.json
+/venv
+/.venv
+/__pycache__
+*.pyc
+*.pyo
+.env
