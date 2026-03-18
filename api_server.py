@@ -7,6 +7,7 @@ Endpoint: POST /recommend  { "query": "I feel lonely and confused" }
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from recommend_books import recommend
+import os
 
 app = Flask(__name__)
 CORS(app)  # Allow requests from Android emulator / device
